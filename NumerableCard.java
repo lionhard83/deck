@@ -7,6 +7,14 @@ public class NumerableCard extends Card {
         this.value = value;
     }
 
+    public String getSeem() {
+        return super.getName();
+    }
+
+    public int getValue() {
+        return value;
+    }
+
     @Override
     public String toString() {
         return this.value + " " + super.toString();

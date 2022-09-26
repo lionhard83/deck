@@ -21,7 +21,7 @@ public class FrenchDeck extends Deck {
         LinkedList<Card> cards = new LinkedList<Card>();
         for (int i = 0; i < seeds.length; i++) {
             for (int j = 1; j <= 13; j++) {
-                NumerableCard c = new NumerableCard(seeds[i], j);
+                FrenchCard c = new FrenchCard(seeds[i], j);
                 cards.add(c);
             }
         }
